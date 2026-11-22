@@ -1,15 +1,15 @@
 # User Validation Web App (Flask + SQLite)
 
 ## Run
-    pip install -r requirements.txt
-    python app.py
-Open http://127.0.0.1:5000
+```
+pip install -r requirements.txt
+python app.py
+```
+Then open http://127.0.0.1:5000
 
 ## Sample users
-| Login name | Password |
-|------------|----------|
-| admin      | admin123 |
-| ayush      | pass@123 |
+- admin / admin123
+- ayush / pass@123
 
 ## Flow
 1. User submits login name & password (POST).
